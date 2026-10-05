@@ -18,7 +18,7 @@ public class Ejercicio1 {
             
             byte[] fotoBytes= Files.readAllBytes(file.toPath());
             os.write(fotoBytes);
-            os.close();
+            
         } catch (Exception e) {
         }
 
